@@ -140,7 +140,18 @@ line-height: 1.6;
     } 
     .header .description {
         width: 550px;
+    }
+    .feature-card {
+        width:350px;
+        height: 250px;
+    }
+    .feature-card .feature-name {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }  
+    .feature-card .description {
+        font-size: .9rem;
+    }
 }
 @media screen and (min-width: 1200px) {
     .content {
